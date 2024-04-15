@@ -1,2 +1,5 @@
-def pozdrav():
-    print("Zdvořile zdravím")
+def pozdrav(name):
+    print(f"Zdvořile zdravím {name}")
+
+
+pozdrav("Jirka")
